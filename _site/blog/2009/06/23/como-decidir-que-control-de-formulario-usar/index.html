@@ -1,0 +1,202 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>cómo decidir qué control de formulario usar - Gabriel Ortuño</title>
+	<meta name="author" content="Gabriel Ortuño">
+
+	
+	<meta name="description" content="
+	cómo decidir qué control de formulario usar
+	Cuando preparas las preguntas que quieres incorporar a un formulario debes tener en cuenta una serie...">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Gabriel Ortuño" type="application/atom+xml">
+	<link rel="canonical" href="">
+  <link href="/favicon.png" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Gabriel Ortuño</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:http://arctarus.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		<a class="google" href="https://plus.google.com/arctarusnet@gmail.com?rel=author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/arctarus" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/arctarus" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/arctarus" title="Delicious">Delicious</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:http://arctarus.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/arctarus">arctarus</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="//javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('arctarus', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">cómo decidir qué control de formulario usar</h1>
+	<div class="entry-content">Cuando preparas las preguntas que quieres incorporar a un formulario debes tener en cuenta una serie de reglas que harán que cada una de las piezas de las cuales está compuesto encajen perfectamente y mejoren la experiencia de uso drásticamente. Para ello debes seleccionar cuidadosamente cuál es el tipo de control que se ajusta perfectamente a cada pregunta.
+
+<a href="http://www.flickr.com/photos/solofotones/3489261570/"><img src="http://farm4.static.flickr.com/3346/3489261570_9292fda200.jpg" alt="Todos somos piezas de un rompecabezas"></a>
+
+<h3>radiobuttons</h3>
+Sólo deben ser usados cuando existe una lista de opciones mutuamente excluyentes, es decir, cuándo sólo es posible seleccionar una opción y la opción más frecuente debe estar marcada por defecto. El número de opciones debe rondar las cinco, dependiendo de su longitud y complejidad. Es importante que en el enunciado de la pregunta quede claro que se trata de seleccionar una de las opciones.
+
+<h3>checkboxes</h3>
+En cambio, los <em>checkboxes</em> deben ser usados cuando pueda ser seleccionada más de una opción, una, o ninguna. El caso de un único <em>checkbox</em> es usado cuando se debe activar o no una opción del formulario.
+
+<h3>combo boxes</h3>
+Son usados cuando tenemos un gran número de opciones y sólo podemos seleccionar una, ya que evita que el tamaño del formulario crezca excesivamente. Sin embargo, las opciones que contenga deben ser más sencillas y claramente excluyentes que en el caso de los <em>radiobuttons</em>, para evitar que los usuarios no encuentren la opción que buscan.
+
+Evita la utilización del multi-combos ya que los usuarios no suelen comprender inmediatamente que pueden seleccionar más de una opción.
+
+<h3>campos de texto</h3>
+Los campos de texto son usados cuando se desea que se pueda introducir texto libremente. Lo más importante que uno debe recordar es que el tamaño del campo debe ajustarse al tamaño de la respuesta esperada, ya que los usuarios tienden a pensar que si su respuesta no cabe probablemente no será correcta. Si el tamaño de la respuesta esperada es muy grande, por ejemplo mayor de una línea, deben usarse los <em>textarea</em> en su lugar.
+
+Cuando se usen campos de texto para introducir datos que requieran algún tipo de formato, como una fecha o un teléfono, debe procurarse que el usuario pueda introducir la información en el mayor número de formatos posible, dejando el manejo de la información a la aplicación. En cualquier caso en conveniente poner algunos ejemplos de los formatos permitidos junto al campo para que el usuario pueda comprender cómo debe introducir la información.
+
+<h3>otros puntos a recordar</h3>
+<ul>
+
+<li>No olvides asociar los <em>labels</em> a su campo correspondiente para que el usuario pueda seleccionar el control al pulsar el <em>label</em>.</li>
+
+<li>Los <em>radiobuttons</em> y los <em>checkboxes</em> deben estar agrupados en un <em>fieldset</em> con un título o <em>legend</em> adecuado. Esto permitirá a los usuarios dividir el formulario en bloques lógicos que pueden abordar por separado.</li>
+
+<li>los <em>radiobuttons</em> y los <em>checkboxes</em> deben situarse antes de su <em>label</em>, y los <em>combo</em>, campos de texto y <em>textarea</em> después.</li>
+
+<li>Marca claramente los campos obligatorios y procura que estén al principio del formulario.</li>
+
+</ul>
+
+
+<h3 style="margin-top:2em;">Referencias</h3>
+<ul>
+<li><a href="http://www.alistapart.com/articles/sensibleforms">Sensible Forms: A Form Usability Checklist</a></li>
+<li><a href="http://www.alzado.org/articulo.php?id_art=57&amp;s=1">Controles de formularios en diseño web, radio buttons, check-boxes...</a></li>
+<li><a href="http://www.useit.com/alertbox/20040927.html">Checkboxes vs. Radio Buttons</a></li>
+<li><a href="http://olgacarreras.blogspot.com/2007/02/formularios-usables-60-directrices-de.html">Formularios usables: 60 directrices de usabilidad</a></li>
+</ul>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="Liquid error: undefined method `xmlschema' for "2009-06-23 00:00:00 +0200":String" pubdate data-updated="true"></time></div>
+	<div class="tags">
+
+
+	blog
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2012
+
+    Gabriel Ortuño
+
+</footer>
+	<script src="//javascripts/slash.js"></script>
+<script src="//javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

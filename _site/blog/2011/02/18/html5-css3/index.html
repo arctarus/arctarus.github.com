@@ -1,0 +1,214 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 & CSS3 - Gabriel Ortuño</title>
+	<meta name="author" content="Gabriel Ortuño">
+
+	
+	<meta name="description" content="
+	HTML5 & CSS3
+	En estos momentos en los que los fabricantes de navegadores compiten para ver cuál es el más "moderno" y que cada vez parece que te...">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Gabriel Ortuño" type="application/atom+xml">
+	<link rel="canonical" href="">
+  <link href="/favicon.png" rel="shortcut icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Gabriel Ortuño</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/blog">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:http://arctarus.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		<a class="google" href="https://plus.google.com/arctarusnet@gmail.com?rel=author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/arctarus" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/arctarus" title="GitHub">GitHub</a>
+		
+		
+		
+		
+		<a class="delicious" href="http://delicious.com/arctarus" title="Delicious">Delicious</a>
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:http://arctarus.github.com">
+	</form>
+</nav>
+
+</header>
+	
+		
+<div id="banner" class="inner">
+	<div class="container">
+		<ul class="feed"></ul>
+	</div>
+	<small><a href="http://twitter.com/arctarus">arctarus</a> @ <a href="http://twitter.com">Twitter</a></small>
+	<div class="loading">Loading...</div>
+</div>
+<script src="//javascripts/twitter.js"></script>
+<script type="text/javascript">
+	(function($){
+		$('#banner').getTwitterFeed('arctarus', 4, false);
+	})(jQuery);
+</script>
+
+	
+	<div id="content" class="inner"><article class="post">
+	<h1 class="title">HTML5 & CSS3</h1>
+	<div class="entry-content">En estos momentos en los que <a href="http://people.mozilla.com/~prouget/ie9/">los fabricantes de navegadores compiten</a> para ver cuál <a href="http://blogs.msdn.com/b/tims/archive/2011/02/15/a-modern-browser.aspx">es el más "moderno"</a> y que cada vez parece que tenemos más cerca la publicación del <a title="An HTML5 Logo" href="http://www.w3.org/QA/2011/01/an_html5_logo.html">nuevo estándar de html</a> los desarrolladores web debemos ponernos al día y comenzar a implementar los nuevos estándares en nuestras webs. Para ello es importante tener a mano algunas <a href="http://diveintohtml5.org">buenas guías</a>, <a title="conoce html5 y css3" href="http://www.slideshare.net/Martulina/conoce-html5-y-css3-6893390">presentaciones</a> y algún libro que nos ayuden a mejorar nuestras webs mientras siguen funcionando en los navegadores más antiguos (lease IE6).
+
+<a href="http://arctarus.files.wordpress.com/2011/02/bhh5.jpg"><img class="alignright size-full wp-image-377" title="bhh5" src="http://arctarus.files.wordpress.com/2011/02/bhh5.jpg" alt="" width="190" height="228" /></a><a href="http://pragprog.com/titles/bhh5/html5-and-css3">HTML5 and CSS3</a> de <a href="http://www.bphogan.com/">Brian P. Hogan</a> hace un recorrido por el nuevo estándar dando para cada caso ejemplos de uso y soluciones alternativas (normalmente basadas en <a href="http://jquery.com/">jQuery</a>) que nos permitan usarlas en navegadores que actualmente no tienen suporte para ellas.
+
+Haciendo un repaso rápido de los temas que se tocan en el libro y que forman parte de HTML5:
+
+<strong>Nuevos elementos estructurales</strong>: Para hacer nuestros documentos más semánticos se han incorporado muchas etiquetas nuevas y se han eliminado muchas otras que aún seguían haciendo referencia a presentación. Algunas de estas nuevas etiquetas son header, footer, nav, section, article.
+
+<strong>Web forms</strong>: Una de mis partes preferidas son los nuevos campos para formularios que nos van a ahorrar gran cantidad de javascript y nos va a permitir crear formularios muy complejos de una manera muy sencilla. Algunos de los nuevos elementos son: email, search, slider(type=range), date, color, number. Además se han añadido attributos muy interesantes como placeholder, autofocus y contenteditable.
+
+<strong>CSS3</strong>: Para permitirnos mejorar visualmente nuestras webs sin necesidad de añadir clases o ids a cada elemento se han añadido montones de selectores y pseudo-selectores, entre ellos destacaría :nth-child(n) que nos permite crear tablas cebreadas sin necesidad de añadir las típicas clases <em>odd</em> y <em>even</em>.
+
+<strong>Canvas</strong>: Nos permite crear imágenes complejas o gráficos programaticamente con javascript y sin necesidad de liberías externas como Flash.
+
+<strong>Audio y video</strong>: Una de las características más conocidas es la inclusión de las etiquetas para audio y video que nos darán soporte nativo en el navegador, después, por supuesto, de que se resuelva la<a title="Chrome abandona el formato H.264 para vídeos" href="http://www.elpais.com/articulo/tecnologia/Chrome/abandona/formato/H/264/videos/elpeputec/20110112elpeputec_4/Tes"> batalla sobre formatos</a> que hay abierta entre los distintos navegadores.
+
+<strong>Eye Candy</strong> (border-radius, shadows, gradients y transformations): Por supuesto, también se hablan de las nuevas propiedades de CSS que nos va a permitir crear bordes redondeados, sombras, gradientes y mucho más sin necesidad de añadir imágenes como fondos.
+
+Por otro lado, se encuentran algunas API's javascript que aunque no pertenecen directamente al estándar, está asociadas al él y que habrá que tener en cuenta en el futuro. Las más destacadas son:
+
+<strong>Local Storage</strong>: Que nos permite guardar cosas como la configuración de la aplicación sin necesidad de usar para ello cookies.
+
+<strong>Session Storage</strong>: Que permite guardar datos en el navegador que se borran automáticamente al cerrar la sesión.
+
+<strong>Web SQL databases</strong>: Bases de datos relacionales asociadas a un dominio y persistente entre sesiones.
+
+<strong>Offline applications</strong>: Permite definir archivos que deben ser cacheados para que la aplicación pueda ejecutarse sin necesidad de conexión a internet.
+
+<strong>History</strong>: Permite manejar el historial del navegador.
+
+<strong>Cross-documents messages</strong>: Nos da la posibilidad de enviar mensajes entre ventanas con contenido cargado desde diferentes dominios.
+
+<strong>Websockets</strong>: Crean una conexión con estado entre un navegador y un servidor.
+
+<strong>Geolocation</strong>: Permite obtener la latitud y la longitud de un navegador web.
+
+Por otro lado, existen otro montón de tecnologías que aún no se encuentran suficientemente maduras para usar en ningún navegador y por las cuales todavía tendremos que esperar un tiempo. Entre ellas se encuentran las siguientes:
+
+<strong>CSS3 Transitions</strong>: Animaciones sobre interacciones directamente en CSS.<strong>
+</strong>
+
+<a href="http://arctarus.wordpress.com/2009/07/12/web-workers/"><strong>WebWorkers</strong></a>: Ejecución de javascript en segundo plano.<strong>
+</strong>
+
+<strong>3D canvas con WebGL</strong>: Creación de imágenes 3D sobre el objeto canvas.
+
+<strong>IndexedDB</strong>: Bases de datos de tipo clave/valor en el navegador similares a las NoSQL.
+
+<strong>Drag &amp; Drop</strong>: Api para arrastrar y soltar elementos entre el sistema operativo y el navegador.
+
+<strong>Client-side form validations</strong>: Validaciones de formularios en el navegador sin usar javascript.
+
+En resumen, nos esperan unos años muy prometedores en lo que ha desarrollo web se refiere con montones de tecnologías nuevas que vienen a facilitarnos el trabajo y a abrirnos un montón de posibilidades nuevas. Creo que es importante que comencemos a usar esas tecnologías desde ya para que los usuarios más avanzados puedan comenzar a beneficiarse de ellas, sin dejar de lado a los usuarios de navegadores sin soporte, y para que cuando llegue el resto de usuarios todas esas tecnologías se encuentren maduras y todos podamos disfrutar de una web mejor.
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="Liquid error: undefined method `xmlschema' for "2011-02-18 00:00:00 +0100":String" pubdate data-updated="true"></time></div>
+	<div class="tags">
+
+
+	blog
+
+
+</div>
+	
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2012
+
+    Gabriel Ortuño
+
+</footer>
+	<script src="//javascripts/slash.js"></script>
+<script src="//javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>
