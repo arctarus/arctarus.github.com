@@ -1,0 +1,31 @@
+---
+layout: post
+title: Build Less
+tags:
+- 37signals
+- gettingreal
+- less
+- libros
+- programming
+- software
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '87616'
+  jabber_published: '1307089452'
+  tagazine-media: a:7:{s:7:"primary";s:0:"";s:6:"images";a:0:{}s:6:"videos";a:0:{}s:11:"image_count";s:1:"0";s:6:"author";s:5:"87616";s:7:"blog_id";s:5:"89101";s:9:"mod_stamp";s:19:"2011-06-03
+    08:25:30";}
+---
+<p>So what to do then? The answer is less. Do less than your competitors to beat them. Solve the simple problems and leave the hairy, difficult, nasty problems to everyone else. Instead of oneupping, try one-downing. Instead of outdoing,
+try underdoing.</p>
+
+<ul>
+  <li>Less features</li>
+  <li>Less options/preferences</li>
+  <li>Less people and corporate structure</li>
+  <li>Less meetings and abstractions</li>
+  <li>Less promises</li>
+</ul>
+
+<p><a title="Getting Real - Build Less" href="http://gettingreal.37signals.com/ch02_Build_Less.php">37 Signals - Getting Real: Build Less</a></p>
