@@ -11,6 +11,7 @@ tags:
 - seo
 status: publish
 type: post
+comments: true
 published: true
 meta:
   _edit_last: '87616'

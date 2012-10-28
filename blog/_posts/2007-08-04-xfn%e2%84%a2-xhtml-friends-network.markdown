@@ -8,6 +8,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 meta: {}
 ---
 Cada vez más usamos internet para relacionarnos con nuestros amigos, por lo que hace falta tener una manera sencilla de representar estas relaciones en la web.

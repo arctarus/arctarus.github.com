@@ -13,6 +13,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 meta:
   _edit_last: '87616'
   image_url: http://1.bp.blogspot.com/_iJayHHFD94E/SqdO2OZnGII/AAAAAAAACTI/uQm5nEf4Bx4/s400/ensaladapixelada.jpg

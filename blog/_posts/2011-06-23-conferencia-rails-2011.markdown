@@ -15,6 +15,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 meta:
   _edit_last: '87616'
   jabber_published: '1308825445'

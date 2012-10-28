@@ -9,6 +9,7 @@ tags:
 status: publish
 type: post
 published: true
+comments: true
 meta:
   _edit_last: '87616'
   image_url: http://arctarus.wordpress.com/files/2008/12/siereslegal.png
