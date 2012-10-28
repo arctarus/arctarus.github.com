@@ -13,6 +13,7 @@ published: true
 comments: true
 ---
 
+
 El pasado jueves hice mi primera charla en Madrid.rb. El tema que traté fue la refactorización de código, punto importante si queremos que nuestras aplicaciones se mantengan sanas y fuertes con el paso del tiempo y las nuevas funcionalidades. Está basada en el libro de Martin Fowler titulado [Refactoring: Improving the Design of Existing Code](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) y además de una introducción y unas pequeñas conclusiones, hay un ejemplo de refactorización que puede servir a aquellos que se inician en el tema para comprender la mecánica que se sigue durante el proceso de refactorización.
 
 Para el que pueda interesarle dejo aquí las transparencias que hice. Además, la charla fue grabada en vídeo, así que en cuanto esté disponible lo dejaré también aquí colgado.
